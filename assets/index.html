@@ -9,33 +9,64 @@
 </head>
 <body>
     <!--navbar-->
-    <nav class="navbar navbar-expand-lg navbar-dark">
-        <div class="container">
-          <a class="navbar-brand" href="#">
-            <span clas="h3 fw-bold">Kitso Senwedi</span>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container flex-lg-column">
+          <a class="navbar-brand mx-lg-auto mb-lg-4" href="#">
+            <span class="h3 fw-bold d-block d-lg-none">Kitso Senwedi</span>
+            <img src="/assets/images/person.jpg" class="d-none d-lg-block" alt="">
           </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
+            <ul class="navbar-nav ms-auto flex-lg-column text-lg-center">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active" aria-current="page" href="#home">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Features</a>
+                <a class="nav-link" href="#about">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Pricing</a>
+                <a class="nav-link" href="#projects">Projects</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                <a class="nav-link" href="#contact">Contacts</a>
               </li>
             </ul>
           </div>
         </div>
       </nav>
     <!--//navbar-->
+
+    <!--content wrapper-->
+      <div id="content-wrapper">
+        <!--Home-->
+        <section id="home" class="full-height px-lg-5">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8">
+                <h1 class="display-4 fw-bold">I'M A <span class="text-brand">WEB DEVELOPER</span> FROM SOUTH AFRICA, ZA</h1>
+                <p class="lead mt-2 mb-4">I am Kitso Senwedi, And I'm a passionate information technology graduate with a Bachelor's degree and three years of academic experience, I am dedicated to leveraging technology to create innovative solutions. I thrive on tackling challenging problems and collaborating with diverse teams to deliver impactful results.</p>
+                <a href="#projects" class="btn btn-brand me-3">Explore My Work</a>
+                <a href="#" class="link-custom">Call:(079) 018 3824</a>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!--Home-->
+        <section id="about" class="full-height px-lg-5">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8">
+                <h6>About</h6>
+              </div>
+            </div>
+
+          </div>
+        </section>
+
+      </div>
+    <!--//content wrapper-->
     
     <script src="/assets/js/bootstrap.min.js"></script>
 </body>
