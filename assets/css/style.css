@@ -64,6 +64,10 @@ img {
     color: var(--color-brand);
 }
 
+.navbar .nav-link.active {
+    color: var(--color-brand);
+}
+
 @media (min-width: 992px) {
     .navbar{
         min-height: 100vh;
@@ -74,7 +78,7 @@ img {
     }
 
     .navbar-brand img{
-        border: 8px solid var(--color-brand);
+        border: 8px solid ;
     }
 
     #content-wrapper {
@@ -117,4 +121,15 @@ img {
 
 .link-custom:hover::after{
     width: 100%;
+}
+
+.card-custom .card-custom-image {
+    overflow: hidden;
+}
+
+.card-custom .card-custom-image {
+    transition: all 0.4s;
+}
+.card-custom:hover .card-custom-image{
+    transform:scale(1.1)
 }
