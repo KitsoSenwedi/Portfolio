@@ -77,9 +77,7 @@ img {
         background-position: center;
     }
 
-    .navbar-brand img{
-        border: 8px solid ;
-    }
+    
 
     #content-wrapper {
         padding-left: var(--sidbar-width);
