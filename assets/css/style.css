@@ -1,10 +1,10 @@
 :root {
-    --color-body:#b6cbce;
-    --color-headings:#eef3db;
-    --color-base:#033f47;
-    --color-base2:#022a30;
-    --color-brand:#e0f780;
-    --color-brand2:#deff58;
+    --color-body:#f7fdfd;
+    --color-headings:#082626;
+    --color-base:#abeded;
+    --color-base2:#25a7a7;
+    --color-brand:#2df70a;
+    --color-brand2:#12c3e7;
     --sidbar-width: 240px;
     --font-base: "Helvetica Neue",
 }
